@@ -48,6 +48,7 @@ export default Main;
 // HornedBeast.js
 import Card from 'react-bootstrap/Card'
 class HornedBeast extends React.Component {
+  // necessary for setting state
   constructor(props) {
     super(props);
     this.state = {
